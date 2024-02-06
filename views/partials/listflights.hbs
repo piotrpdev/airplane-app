@@ -1,0 +1,60 @@
+{{#unless airline.flights}}
+  <h3 class="ui center aligned message">It's very quiet in here... start adding some flights!</h3>
+{{else}}
+  <table class="ui striped table">
+    <thead>
+      <tr>
+        <th class="four wide">PNR</th>
+        <th class="four wide">Source</th>
+        <th class="three wide">Destination</th>
+        <th class="three wide">Duration</th>
+        <th class="one wide"> </th>
+        <th class="one wide"> </th>
+      </tr>
+    </thead>
+  <tbody>
+      {{#each airline.flights}}
+      <form class = "ui stacked segment form" action="/airline/{{../airline.id}}/updateflight/{{id}}" method="POST">
+      <tr class="fields">
+        <td class="field">
+          <span class="ui input">
+           <input type="text" name="pnr" autofocus required title = "Please include a valid PNR" placeholder="PNR" value = "{{pnr}}">
+          </span>
+        </td>
+        <td class="field">
+          <span class="ui input">
+            <input type="text" name="source" required title = "Please include a valid Source" placeholder="Source" value = "{{source}}">
+          </span>
+        </td>
+        <td class="field">
+          <span class="ui input">
+            <input type="text" name="destination" autofocus required title = "Please include a valid Destination" placeholder="Destination" value = "{{destination}}">         
+          </span>
+        </td>
+        <td class="field">
+          <span class="ui input">
+            <input type="text" name="duration" required title = "Please enter a valid duration" placeholder="Duration" value = "{{duration}}">
+          </span>
+        </td>
+        <td class="center aligned">
+          <button class="ui submit icon button"><i class="ui pencil alternate icon"></i></button>
+        </td>
+        <td class="center aligned">
+          <a href="/airline/{{../airline.id}}/deleteflight/{{id}}" class="ui icon button delflight">
+            <i class="ui trash icon"></i>
+          </a>
+        </td>
+      </tr>
+      </form> 
+      {{/each}}
+    </tbody>
+  </table>
+
+  <p>
+    <span id="rating"> </span>
+  </p>
+
+  <button class="ui blue button" id="rateit">
+    Rate it! <i class="star icon"></i>
+  </button>
+{{/unless}}

@@ -1,0 +1,31 @@
+{
+  "developers": [
+    {
+      "name": "Aylmer",
+      "fullname": "Aylmer Feliciano",
+      "image": "https://cdn.glitch.global/393e4fc3-c180-49dd-9980-bba061df3548/man1.jpg?v=1678517822128",
+      "joined": 2016,
+      "job": "Web Developer",
+      "city": "Waterford",
+      "mates": 35
+    },
+    {
+      "name": "Helen",
+      "fullname": "Helen Hess",
+      "image": "https://cdn.glitch.global/393e4fc3-c180-49dd-9980-bba061df3548/woman1.jpg?v=1678517825430",
+      "joined": 2013,
+      "job": "Communications Director",
+      "city": "Cork",
+      "mates": 22
+    },
+    {
+      "name": "Elliot",
+      "fullname": "Elliot Fu",
+      "image": "https://cdn.glitch.global/393e4fc3-c180-49dd-9980-bba061df3548/woman2.jpg?v=1678517829236",
+      "joined": 2015,
+      "job": "Research Assistant",
+      "city": "Cork",
+      "mates": 26
+    }
+  ]
+}

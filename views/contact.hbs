@@ -1,0 +1,94 @@
+{{> menu id="contact"}}
+
+{{> modal}}
+
+<section class="ui middle aligned segment">
+      <header id="top-header" class="ui container">
+         <h2 class="ui center aligned header">Contact Us</h2>
+      </header>
+      <section>
+         <h3 id="contact-subtitle">
+            If you want to get in touch for any reason, please fill out the form
+            below and we will get back to you.
+         </h3>
+         <div class="ui hidden divider"></div>
+         <div id="form-container" class="ui segment">
+            <form id="contact-form" class="ui form">
+               <div class="inline field">
+                  <label for="contactname" class="three wide field">Name</label>
+                  <input type="text" name="contactname" id="contactname" class="eight wide field" autofocus="" autocomplete="name" required="" pattern="[A-Z][a-z]+( [A-Z][a-z]+)*" title="Please enter a name (Surname optional) with First Letter capitalised">
+               </div>
+               <div class="inline field">
+                  <label for="contactemail" class="three wide field">Email Address</label>
+                  <input type="email" name="contactemail" id="contactemail" pattern="^[_a-z0-9-]+(\.[_a-z0-9-]+)*@[a-z0-9-]+(\.[a-z0-9-]+)*(\.[a-z]{2,4})$" class="eight wide field" autocomplete="email" required="" title="Please enter a valid email address">
+               </div>
+               <div class="radio-element">
+                  <p>Is this an urgent matter?</p>
+                  <div class="grouped fields">
+                     <div class="field">
+                        <div class="ui radio checkbox">
+                           <input type="radio" name="urgent" id="urgentY" title="It is an urgent matter">
+                           <label for="urgentY">Yes</label>
+                        </div>
+                     </div>
+                     <div class="field">
+                        <div class="ui radio checkbox">
+                           <input type="radio" name="urgent" id="urgentN" checked="" title="It is not an urgent matter">
+                           <label for="urgentN">No</label>
+                        </div>
+                     </div>
+                  </div>
+               </div>
+               <div class="inline field">
+                  <label class="three wide field">Query Type</label>
+                  <div id="type" class="ui eight wide field selection dropdown" tabindex="0">
+                     <i class="dropdown icon" tabindex="0">
+                        <div class="menu" tabindex="-1"></div>
+                     </i>
+                     <div class="text">
+                        <i class="question icon"></i>
+                        Question
+                     </div>
+                     <div class="menu" tabindex="-1">
+                        <div class="active item">
+                           <i class="question icon"></i>
+                           Question
+                        </div>
+                        <div class="item">
+                           <i class="attention icon"></i>
+                           Complaint
+                        </div>
+                        <div class="item">
+                           <i class="user plus icon"></i>
+                           Request to Join
+                        </div>
+                        <div class="item">
+                           <i class="heart icon"></i>
+                           Compliment (Thank you)
+                        </div>
+                        <div class="item">
+                           <i class="conversation icon"></i>
+                           Other (Tell us below)
+                        </div>
+                     </div>
+                  </div>
+               </div>
+               <div class="ui hidden tall divider"></div>
+               <p>Please tell us more about the issue below.</p>
+               <div class="inline field">
+                  <label for="details" class="three wide field">Details</label>
+                  <textarea name="details" class="twelve wide field" id="details" cols="30" rows="10"></textarea>
+               </div>
+               <div class="ui hidden divider"></div>
+               <button class="ui orange button" type="submit">
+               <i class="paper plane icon"></i>
+               Send
+               </button>
+               <button class="ui red button" type="reset">
+               <i class="eraser icon"></i>
+               Clear the form
+               </button>
+            </form>
+         </div>
+      </section>
+</section>

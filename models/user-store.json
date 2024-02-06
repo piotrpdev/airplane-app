@@ -1,0 +1,60 @@
+{
+  "users": [
+    {
+      "firstName": "homer",
+      "lastName": "simpson",
+      "email": "homer@simpson.com",
+      "password": "secret",
+      "id": "3ad52697-6d98-4d80-8273-084de55a86c0",
+      "picture": "https://res.cloudinary.com/didp4sem8/image/upload/v1682002791/fg03ywdcs0wby3u4n7ee.jpg"
+    },
+    {
+      "firstName": "marge",
+      "lastName": "simpson",
+      "email": "marge@simpson.com",
+      "password": "secret",
+      "id": "2b6f0989-7b7f-4a38-ad26-aa06b922d751",
+      "picture": "https://res.cloudinary.com/didp4sem8/image/upload/v1682002753/A0883028065462_1_dkktsc.jpg"
+    },
+    {
+      "firstName": "Big",
+      "lastName": "John",
+      "email": "bigjohn@gmail.com",
+      "password": "secret",
+      "id": "f7aeed6a-8a68-4cf9-af14-352e24524ec5",
+      "picture": "http://res.cloudinary.com/didp4sem8/image/upload/v1682006522/g6om5iywy3tqwxdtidxg.jpg"
+    },
+    {
+      "firstName": "Small",
+      "lastName": "John",
+      "email": "smalljohn@gmail.com",
+      "password": "secret",
+      "id": "f98a5421-a029-42c9-9c30-c367bbcee5c7",
+      "picture": "http://res.cloudinary.com/didp4sem8/image/upload/v1682006612/mggxsc87gexqdewmxjai.jpg"
+    },
+    {
+      "firstName": "awdawd",
+      "lastName": "awd",
+      "email": "awd",
+      "password": "awd",
+      "id": "45ced9cc-fe5f-4f1f-abfc-5615eee73b28",
+      "picture": "http://res.cloudinary.com/didp4sem8/image/upload/v1682614945/vih4kjib6d7l8l9mn7jy.jpg"
+    },
+    {
+      "firstName": "Horace",
+      "lastName": "Bobbins",
+      "email": "awd@sef",
+      "password": "awd",
+      "id": "ce1e743f-8990-45d8-8772-21c5c1ee8bcd",
+      "picture": "http://res.cloudinary.com/didp4sem8/image/upload/v1682615122/mkp1ey4ramugudbfztfw.jpg"
+    },
+    {
+      "firstName": "Mary",
+      "lastName": "Lyng",
+      "email": "mlyng@setu.ie",
+      "password": "Trustno1",
+      "id": "aab0b5e6-9cfa-4e88-a38d-1834a51dc8d7",
+      "picture": "http://res.cloudinary.com/didp4sem8/image/upload/v1683195159/isotmhnlsm8ljpd28jxu.png"
+    }
+  ]
+}

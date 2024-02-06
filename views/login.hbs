@@ -1,0 +1,15 @@
+{{> welcomemenu id='login' }}
+
+<form class="ui stacked segment form" action="/authenticate" method="POST">
+  <h3 class="ui header">Log-in</h3>
+  <div class="field">
+    <label for="email">Email</label> <input placeholder="Email" name="email" type="email" autofocus required>
+  </div>
+  <div class="field">
+    <label for="password">Password</label> <input type="password" placeholder="Password"  name="password" required >
+  </div>
+  {{#if error}}
+    <div class="login-error">Something went wrong, make sure the email and password are correct.</div>
+  {{/if}}
+  <button class="ui blue submit button">Login</button>
+</form>

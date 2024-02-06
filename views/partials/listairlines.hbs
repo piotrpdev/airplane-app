@@ -1,0 +1,20 @@
+{{#if airlines}}
+  <div class="ui centered cards">
+    {{#each airlines}}
+      <div class="ui card">
+        <div class="image">
+          <img src="{{picture}}">
+        </div>
+        <div class="content">
+          <a class="header">{{airlineName}} ({{uppercase airlineIcao}})</a>
+          <div class="date"><i class="calendar icon"></i>{{formatDate date}}</div>
+          <div class="time"><i class="clock icon"></i>{{calcTotal flights}}</div>
+        </div>
+        <div class="extra content">
+          <a href="/airline/{{id}}"><i class="open folder open icon"></i></a>
+          <a class="delairline" href="/airline/{{id}}/deleteAirline"><i class="trash icon"></i></a>
+        </div>
+      </div>
+    {{/each}}
+  </div>
+{{/if}}
