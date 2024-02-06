@@ -1,4 +1,4 @@
-![demo](./.github/img/demo.mp4)
+https://github.com/piotrpdev/airplane-app/assets/99439005/cf6a73b6-4f99-4f15-a883-908760108b52
 
 # Airplane App
 
