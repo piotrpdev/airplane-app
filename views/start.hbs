@@ -1,0 +1,168 @@
+{{> menu}}
+
+<div id="dash" class="ui two column raised stackable relaxed grid segment">
+  <div class="ui column">
+    <h2 class="ui header">
+      Welcome, {{fullname}}!
+    </h2>
+    <p>
+      Check out the options in the header to see what you can do!
+    </p>
+    <div class="ui hidden divider"></div>
+      <button class="ui mini blue button">
+        <i class="icon book"></i>
+        Read More
+      </button>
+    <div id="readmore" class="ui info message">
+      <p>
+        This revolutionary app allows you to add airlines and flights, while keeping them saved on the server! You can then access these anywhere you want.
+      </p>
+    </div>
+    <div id="welcomeuser" class="ui info message"></div>
+    <div id="stats-div" class="ui divider"></div>
+    <button id="airstatsbtn" class="ui mini green button">
+        <i class="icon plane"></i>
+        App Stats
+    </button>
+    <button id="userstatsbtn" class="ui mini orange button">
+        <i class="icon user"></i>
+        User Stats
+    </button>
+    <div id="airstats" class="ui info message">
+      <h3 class="ui center aligned header">The Airline App now contains:</h3>
+      <div class="ui statistics stats">
+          <div class="ui statistic">
+              <div class="value">
+                  <i class="file audio icon"></i>
+              </div>
+              <div class="label">
+                  {{totalAirlines}} Airlines
+              </div>
+          </div>
+          <div class="ui statistic">
+              <div class="value">
+                  <i class="music icon"></i>
+              </div>
+              <div class="label">
+                  {{totalFlights}} Flights
+              </div>
+          </div>
+          <div class="ui statistic">
+                <div class="value">
+                    <i class="chart line icon"></i>
+                </div>
+                <div class="label">
+                    {{averageFlightsPerAirline}} Flights Avg Per User
+                </div>
+            </div>
+          <div class="ui custom mini statistic">
+            <div class="label">
+                    User with Most Flights
+                </div>
+                <div class="value2">
+                    {{userWithMostFlights}}
+                </div>
+            </div>
+          <div class="ui custom mini statistic">
+                <div class="label">
+                    User with Least Flights
+                </div>
+                <div class="value2">
+                    {{userWithLeastFlights}}
+                </div>
+          </div>
+      </div>
+    </div>
+    <div id="userstats" class="ui info message">
+      <h3 class="ui center aligned header">Your statistics:</h3>
+      <div class="ui statistics stats">
+          <div class="ui statistic">
+              <div class="value">
+                  <i class="file audio icon"></i>
+              </div>
+              <div class="label">
+                  {{userTotalAirlines}} Airlines
+              </div>
+          </div>
+          <div class="ui statistic">
+              <div class="value">
+                  <i class="music icon"></i>
+              </div>
+              <div class="label">
+                  {{userTotalFlights}} Flights
+              </div>
+          </div>
+          <div class="ui statistic">
+                <div class="value">
+                    <i class="chart line icon"></i>
+                </div>
+                <div class="label">
+                    {{userAverageFlights}} Flights Average
+                </div>
+            </div>
+          <div class="ui custom mini statistic">
+            <div class="label">
+                    Airline with Most Flights
+                </div>
+                <div class="value2">
+                    {{userAirlineWithMostFlights}}
+                </div>
+            </div>
+          <div class="ui custom mini statistic">
+                <div class="label">
+                    Airline with Least Flights
+                </div>
+                <div class="value2">
+                    {{userAirlineWithLeastFlights}}
+                </div>
+          </div>
+      </div>
+    </div>
+  </div>
+  <div class="ui column">
+    <div class="ui three stackable cards">
+      <div class="card">
+        <div class="image">
+          <img
+            src="https://cdn.glitch.global/393e4fc3-c180-49dd-9980-bba061df3548/aa.image.png?v=1678515530276"
+          />
+        </div>
+      </div>
+      <div class="card">
+        <div class="image">
+          <img
+            src="https://cdn.glitch.global/393e4fc3-c180-49dd-9980-bba061df3548/aasia.image.png?v=1678515598842"
+          />
+        </div>
+      </div>
+      <div class="card">
+        <div class="image">
+          <img
+            src="https://cdn.glitch.global/393e4fc3-c180-49dd-9980-bba061df3548/ta.image.png?v=1678515635519"
+          />
+        </div>
+      </div>
+      <div class="card">
+        <div class="image">
+          <img
+            src="https://cdn.glitch.global/393e4fc3-c180-49dd-9980-bba061df3548/ba.image.png?v=1678515652504"
+          />
+        </div>
+      </div>
+      <div class="card">
+        <div class="image">
+          <img
+            src="https://cdn.glitch.global/393e4fc3-c180-49dd-9980-bba061df3548/qa.image.png?v=1678515665558"
+          />
+        </div>
+      </div>
+      <div class="card">
+        <div class="image">
+          <img
+            src="https://cdn.glitch.global/393e4fc3-c180-49dd-9980-bba061df3548/ia.image.png?v=1678515680299"
+          />
+        </div>
+      </div>
+    </div>
+  </div>
+</div>

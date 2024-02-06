@@ -1,0 +1,25 @@
+<form class="ui stacked segment form" action="/airline/{{airline.id}}/addflight" method="POST">
+  <div class="two fields">
+    <div class="field">
+      <label>PNR</label>
+      <input type="text" name="pnr" autofocus required title = "Please include a valid PNR"
+      placeholder="PNR">
+    </div>
+    <div class="field">
+      <label>Source</label>
+      <input type="text" name="source" required title = "Please include a valid Source"
+      placeholder="Source"  >
+    </div>
+    <div class="field">
+      <label>Destination</label>
+      <input type="text" name="destination" required title = "Please include a valid Destination"
+      placeholder="Destination"  >
+    </div>
+    <div class="field">
+      <label>Duration</label>
+      <input type="number" name="duration" required title = "Please include a valid Duration"
+      placeholder="Duration"  >
+    </div>
+  </div>
+  <button class="ui blue submit button">Add Flight</button>
+</form>

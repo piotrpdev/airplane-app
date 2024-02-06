@@ -1,0 +1,106 @@
+{{> welcomemenu }}
+
+<div id="dash" class="ui two column raised stackable relaxed grid segment">
+  <div class="ui column">
+    <h2 class="ui header">
+      Welcome to the Airline App!
+    </h2>
+    <p>
+      This allows you to create and maintain a collection of airlines!
+    </p>
+    <p>
+      Please log in or sign up to see more!
+    </p>
+    <div id="welcomeuser" class="ui info message"></div>
+    <div id="stats-div" class="ui divider"></div>
+    <h3 class="ui center aligned header">The Airline App now contains:</h3>
+    <div class="ui statistics stats">
+        <div class="ui statistic">
+            <div class="value">
+                <i class="file audio icon"></i>
+            </div>
+            <div class="label">
+                {{totalAirlines}} Airlines
+            </div>
+        </div>
+        <div class="ui statistic">
+            <div class="value">
+                <i class="music icon"></i>
+            </div>
+            <div class="label">
+                {{totalFlights}} Flights
+            </div>
+        </div>
+        <div class="ui statistic">
+              <div class="value">
+                  <i class="chart line icon"></i>
+              </div>
+              <div class="label">
+                  {{averageFlightsPerAirline}} Flights Average
+              </div>
+          </div>
+        <div class="ui custom mini statistic">
+          <div class="label">
+                  Airline with Most Flights
+              </div>
+              <div class="value2">
+                  {{airlineWithMostFlights}}
+              </div>
+          </div>
+        <div class="ui custom mini statistic">
+              <div class="label">
+                  Airline with Least Flights
+              </div>
+          <div class="value2">
+                  {{airlineWithLeastFlights}}
+              </div>
+          </div>
+    </div>
+  </div>
+  <div class="ui column">
+    <div class="ui three stackable cards">
+      <div class="card">
+        <div class="image">
+          <img
+            src="https://cdn.glitch.global/393e4fc3-c180-49dd-9980-bba061df3548/aa.image.png?v=1678515530276"
+          />
+        </div>
+      </div>
+      <div class="card">
+        <div class="image">
+          <img
+            src="https://cdn.glitch.global/393e4fc3-c180-49dd-9980-bba061df3548/aasia.image.png?v=1678515598842"
+          />
+        </div>
+      </div>
+      <div class="card">
+        <div class="image">
+          <img
+            src="https://cdn.glitch.global/393e4fc3-c180-49dd-9980-bba061df3548/ta.image.png?v=1678515635519"
+          />
+        </div>
+      </div>
+      <div class="card">
+        <div class="image">
+          <img
+            src="https://cdn.glitch.global/393e4fc3-c180-49dd-9980-bba061df3548/ba.image.png?v=1678515652504"
+          />
+        </div>
+      </div>
+      <div class="card">
+        <div class="image">
+          <img
+            src="https://cdn.glitch.global/393e4fc3-c180-49dd-9980-bba061df3548/qa.image.png?v=1678515665558"
+          />
+        </div>
+      </div>
+      <div class="card">
+        <div class="image">
+          <img
+            src="https://cdn.glitch.global/393e4fc3-c180-49dd-9980-bba061df3548/ia.image.png?v=1678515680299"
+          />
+        </div>
+      </div>
+    </div>
+  </div>
+</div>

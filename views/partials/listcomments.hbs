@@ -1,0 +1,22 @@
+{{#if comments}}
+  <div class="ui feed">
+    {{#each comments}}
+        <div class="event">
+          <div class="label">
+            <img src="{{ picture }}">
+          </div>
+          <div class="content">
+            <div class="summary">
+              {{ fullName }}
+              <div class="date">
+                {{ timeSince date }}
+              </div>
+            </div>
+            <div class="extra text">
+              {{ commentText }}
+            </div>
+          </div>
+        </div>
+    {{/each}}
+  </div>
+{{/if}}
