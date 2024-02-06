@@ -1,24 +1,24 @@
-# Peter's SETU Web App
+![demo](./.github/img/demo.mp4)
 
-This is Peter's version of the web app.
+# Airplane App
 
-## TODO
+This revolutionary app allows you to add airlines and flights, while keeping them saved on the server! You can then access these anywhere you want.
 
-- [ ] Add global and individual statistics
-- [ ] Add comment section to about page, with edit functionality
+*(CA2 submission for SETU SSD Website Development 2 module.)*
 
-## Changelog ✨
+## Features
 
-### Lab 02
+- Create, Read, Update and Delete airlines and flights
+- Sign-up and log-in system
+- Comment section on about page
+- Airlines, flights, users and comments are persisted on the server
+- Can upload images for users and airlines
+- Front page shows statistics about the airlines and flights
 
-- ✔️ WIP
+## Technical Details
 
-### Lab 01
-
-- ✔️ Added basic layout
-- ✔️ Added album covers and grid
-- ✔️ Added buttons and some basic interactivity
-- ❌ Added nuclear launch codes
-
-
-
+- Server uses [Express](https://github.com/expressjs/express)
+- UI uses [Handlebars](https://github.com/handlebars-lang/handlebars.js) templates and [Semantic UI](https://github.com/Semantic-Org/Semantic-UI)
+- Logging uses [Winston](https://github.com/winstonjs/winston)
+- Persistence on the server uses [lowdb](https://github.com/typicode/lowdb) (single locally stored JSON file)
+- Image upload and storage uses [Cloudinary](https://github.com/cloudinary/cloudinary_npm)
